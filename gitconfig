@@ -1,0 +1,14 @@
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[push]
+	default = matching
+[include]
+	path = .gitconfig.local
+

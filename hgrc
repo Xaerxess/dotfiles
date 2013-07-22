@@ -1,0 +1,38 @@
+[extensions]
+color =
+convert =
+fetch =
+histedit =
+pager =
+progress =
+rebase =
+record =
+
+[color]
+status.modified = magenta bold
+status.added = green bold
+status.removed = red bold
+status.deleted = cyan bold
+status.unknown = blue bold
+status.ignored = black bold
+
+[defaults]
+# suppress noisy extdiff header message
+cdiff = -q
+
+[diff]
+git = True
+
+[extdiff]
+cmd.cdiff = colordiff
+opts.cdiff = -ur
+
+[pager]
+pager = less -FRX
+attend = annotate, cat, diff, export, help, log, unshelve
+
+[alias]
+shortlog = log -M --template '{node|short} | {date|isodatesec} | {author|user}: {desc|strip|firstline}\n'
+
+%include ~/.hgrc_local
+
