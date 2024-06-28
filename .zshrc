@@ -17,6 +17,8 @@ source $HOME/.zsh_local/autocompletion.zsh
 export PATH="$HOME/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin::$HOME/.local/bin:/usr/local/opt/libpq/bin"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
+eval $(/opt/homebrew/bin/brew shellenv)
+
 # Load: Akamai and Perforce Configurations
 source $HOME/.zsh_local/akamai.zsh
 
