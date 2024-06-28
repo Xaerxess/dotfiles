@@ -14,6 +14,9 @@ else
   echo "Homebrew is already installed...";
 fi
 
+# ZSH should already be installed
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Install the essential brews
 brew install curl
 brew install gpg
