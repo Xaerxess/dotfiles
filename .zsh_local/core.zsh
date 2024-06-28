@@ -1,3 +1,6 @@
+# Activate brew
+eval $(/opt/homebrew/bin/brew shellenv)
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/grozniec/.oh-my-zsh
 

@@ -32,11 +32,9 @@ brew install kubectx
 brew install k9s
 brew install helm
 brew install opentofu
-brew install python-boto3
 brew install s3cmd
 brew install derailed/popeye/popeye
 brew install minikube
-brew install hyperkit
 brew install fzf
 
 # Install GNU utils
@@ -53,7 +51,7 @@ brew install gawk
 brew install --cask temurin@11
 brew install --cask temurin@17
 brew install --cask temurin@21
-brew cask install iterm2
+brew install --cask iterm2
 
 # Update and Upgrade
 echo "Updating and upgrading Homebrew..."; echo;

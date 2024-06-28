@@ -8,7 +8,7 @@ source $HOME/.zsh_local/aliases.zsh
 source $HOME/.zsh_local/core.zsh
 
 # Load: External Scripts
-source $HOME/.zsh_local/external.zsh
+#source $HOME/.zsh_local/external.zsh
 
 # Load: Autocompletion Settings
 source $HOME/.zsh_local/autocompletion.zsh
