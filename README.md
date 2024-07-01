@@ -3,7 +3,9 @@ dotfiles
 
 My configuration files (.zshrc, .gitconfig, etc.).
 
-I follow [Dotfiles: Best way to store in a bare git repository](https://www.atlassian.com/git/tutorials/dotfiles).
+Inspirations:
+- [Dotfiles: Best way to store in a bare git repository](https://www.atlassian.com/git/tutorials/dotfiles)
+- [I do Dotfiles! by Jogendra](https://jogendra.dev/i-do-dotfiles)
 
 Instructions:
 
