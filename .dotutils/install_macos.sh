@@ -27,6 +27,7 @@ brew install docker
 brew install docker-compose
 brew install dog
 brew install curlie
+brew install jq
 brew install kubectl
 brew install kubectx
 brew install k9s
@@ -36,6 +37,8 @@ brew install s3cmd
 brew install derailed/popeye/popeye
 brew install minikube
 brew install fzf
+brew install htop
+brew install mc
 
 # Install GNU utils
 brew install coreutils
