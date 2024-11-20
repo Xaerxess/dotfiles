@@ -39,6 +39,7 @@ brew install minikube
 brew install fzf
 brew install htop
 brew install mc
+brew install imagemagick
 
 # Install GNU utils
 brew install coreutils
