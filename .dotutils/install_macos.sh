@@ -30,6 +30,7 @@ brew install curlie
 brew install jq
 brew install kubectl
 brew install kubectx
+brew install krew
 brew install k9s
 brew install helm
 brew install opentofu
